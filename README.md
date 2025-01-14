@@ -39,21 +39,19 @@ To set up the project locally, follow these steps:
 -python -m venv venv
 -source venv/bin/activate  # On Windows use: venv\Scripts\activate
 3. **Install Required Packages**
-Install the necessary Python packages using pip. Make sure you have requirements.txt in your project directory. Run:
-pip install -r requirements.txt
+Install the necessary Python packages using pip. Make sure you have requirements.txt in your project directory. Run:pip install -r requirements.txt
 4. **Prepare the Dataset**
 Ensure the dataset file (used_cars.csv) is located in the project directory. This is essential for training the model.
 5. **Train the Model**
-Before running the web app, you need to train the model. Execute the following command:
-python train.py
+Before running the web app, you need to train the model. Execute the following command:python train.py
 This will generate a car_price_prediction_model.pkl file containing the trained model.
 6.**Run the Web Application**
-start the Streamlit web application by running:
-streamlit run app.py
+start the Streamlit web application by running:streamlit run app.py
 
 # Making Predictions
 -Enter the car's age (in years) and mileage (in miles).
 -Click the "Predict Price" button to get the estimated price of the car.
+
 # Model Evaluation
 -The model's performance can be assessed using Mean Squared Error (MSE), which is printed during training. Lower values of MSE indicate better performance.
 
@@ -62,7 +60,7 @@ streamlit run app.py
 
 ## Social Media
 Connect with me:
-- [Facebook](https://www.facebook.com/Sonu_Chamling) 
+- [Facebook](https://www.facebook.com/Sonu Chamling) 
 - Email: [sonu.anjel007@gmail.com]  
 
 
