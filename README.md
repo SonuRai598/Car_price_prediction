@@ -47,10 +47,9 @@ Ensure the dataset file (used_cars.csv) is located in the project directory. Thi
 Before running the web app, you need to train the model. Execute the following command:
 python train.py
 This will generate a car_price_prediction_model.pkl file containing the trained model.
-
 6.**Run the Web Application**
 start the Streamlit web application by running:
--streamlit run app.py
+streamlit run app.py
 
 # Making Predictions
 -Enter the car's age (in years) and mileage (in miles).
@@ -62,8 +61,8 @@ start the Streamlit web application by running:
 -Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
 ## Social Media
-Connect with me::
-- [Facebook](https://www.facebook.com/SonuChamling) 
+Connect with me:
+- [Facebook](https://www.facebook.com/Sonu_Chamling) 
 - Email: [sonu.anjel007@gmail.com]  
 
 
